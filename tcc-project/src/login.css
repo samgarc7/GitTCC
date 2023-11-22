@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(2rad, rgba(0, 0, 0,0.93) 0%, rgba(52, 147, 192, 0.8) 100%);
+    margin-top: 0;
+    height: 100vh; 
+    width: 195vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: aliceblue;
+    height: 500px;
+    width: 700px;
+    margin-left: 20vh;
+    border-radius: 6%;
+}
+form {
+   
+    width: 300px;
+    height: 300px;
+    display: flexbox;
+    margin-left:8px ;  
+    
+}
+.login{
+    margin-top: 180px;
+    margin-left: 350px;
+}
+form input{
+    border-color: black;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    height: 30px;
+    width: 80px;
+    
+}
+.login h2{
+    opacity: 80%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.login a {
+    opacity: 70%;
+    margin-left: 180px;
+    color: black;
+    font-size:smaller;
+}
